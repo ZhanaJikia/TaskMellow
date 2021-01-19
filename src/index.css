@@ -1,0 +1,93 @@
+body {
+    background-color: #cccccc;
+}
+
+.groups__item {
+    flex: 0 0 15rem;
+    margin: 0 0.5rem 0 0;
+}
+
+.groups__item header,
+.groups__item .inner {
+    cursor: pointer;
+}
+
+.groups {
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.inner,
+.add-new {
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding: 0.75em;
+}
+
+.title {
+	text-transform: capitalize;
+	font-size: 28px;
+	font-weight: 500;
+	letter-spacing: 0;
+	line-height: 1.5em;
+	padding-bottom: 15px;
+	position: relative;
+}
+
+.title :before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 5px;
+	width: 55px;
+	background-color: #111;
+}
+
+.title :after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 2px;
+	height: 1px;
+	width: 95%;
+	max-width: 255px;
+	background-color: #333;
+}
+
+.user {
+  color: #ffffff;
+}
+
+.info {
+    padding-bottom: 0.5rem;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+}
+
+.main__header {
+    position: relative;
+    background-color: #000000;
+}
+
+.dashboard {
+    overflow-x: auto;
+}
+
+.tasks {
+    min-height: 15px;
+}
+
+.tasks__item {
+    background-color: ffffff;
+    border-radius: 3px;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.modal-task > div {
+    height: 260px;
+}
