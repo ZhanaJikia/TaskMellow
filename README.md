@@ -1,2 +1,2 @@
 # TaskMellow
-Simple to-do
+Simple to-do - University Task
